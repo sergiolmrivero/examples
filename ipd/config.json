@@ -3,15 +3,15 @@
     "Version": "0.0.1",
     "License": "GPL-3.0",
     "paths": {
-        "app": "/home/rivero/Dropbox/Workspace_Current/Projects/Apps/EcoSimpy_dev/apps/ipd",
-        "models": "/home/rivero/Dropbox/Workspace_Current/Projects/Apps/EcoSimpy_dev/apps/ipd/models/",
-        "scenarios": "/home/rivero/Dropbox/Workspace_Current/Projects/Apps/EcoSimpy_dev/apps/ipd/scenarios/",
-        "runs": "/home/rivero/Dropbox/Workspace_Current/Projects/Apps/EcoSimpy_dev/apps/ipd/runs/",
-        "results": "/home/rivero/Dropbox/Workspace_Current/Projects/Apps/EcoSimpy_dev/apps/ipd/results/",
-        "analisys": "/home/rivero/Dropbox/Workspace_Current/Projects/Apps/EcoSimpy_dev/apps/ipd/analisys/"
+        "app": "/home/rivero/Dropbox/Workspace_Current/Projects/Apps/EcoSimpy_dev/examples/ipd",
+        "models": "/home/rivero/Dropbox/Workspace_Current/Projects/Apps/EcoSimpy_dev/examples/ipd/models/",
+        "scenarios": "/home/rivero/Dropbox/Workspace_Current/Projects/Apps/EcoSimpy_dev/examples/ipd/scenarios/",
+        "runs": "/home/rivero/Dropbox/Workspace_Current/Projects/Apps/EcoSimpy_dev/examples/ipd/runs/",
+        "results": "/home/rivero/Dropbox/Workspace_Current/Projects/Apps/EcoSimpy_dev/examples/ipd/results/",
+        "analisys": "/home/rivero/Dropbox/Workspace_Current/Projects/Apps/EcoSimpy_dev/examples/ipd/analisys/"
     },
     "files": {
-        "model": "/home/rivero/Dropbox/Workspace_Current/Projects/Apps/EcoSimpy_dev/apps/ipd/models/model.json",
-        "scenarios": "/home/rivero/Dropbox/Workspace_Current/Projects/Apps/EcoSimpy_dev/apps/ipd/scenarios/scenarios.json"
+        "model": "/home/rivero/Dropbox/Workspace_Current/Projects/Apps/EcoSimpy_dev/examples/ipd/models/model.json",
+        "scenarios": "/home/rivero/Dropbox/Workspace_Current/Projects/Apps/EcoSimpy_dev/examples/ipd/scenarios/scenarios.json"
     }
 }
