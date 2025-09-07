@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.pyo
+*.pyd
+*.pdb
+*.sqlite3
+*.log
+*.pot
+*.mo
+*.env
+.venv
+venv/
+ENV/
+env/
+.ipynb_checkpoints/
+.mypy_cache/
+.pytest_cache/
+.coverage
+.tox/
+.cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# Exclude data and image files
+*.csv
+*.tsv
+*.png
+*.jpg
