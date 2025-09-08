@@ -3,15 +3,15 @@
     "Version": "0.0.1",
     "License": "GPL-3.0",
     "paths": {
-        "app": "/home/rivero/Dropbox/Workspace_Current/Projects/Apps/EcoSimpy_dev/apps/macro_pk",
-        "models": "/home/rivero/Dropbox/Workspace_Current/Projects/Apps/EcoSimpy_dev/apps/macro_pk/models/",
-        "scenarios": "/home/rivero/Dropbox/Workspace_Current/Projects/Apps/EcoSimpy_dev/apps/macro_pk/scenarios/",
-        "runs": "/home/rivero/Dropbox/Workspace_Current/Projects/Apps/EcoSimpy_dev/apps/macro_pk/runs/",
-        "results": "/home/rivero/Dropbox/Workspace_Current/Projects/Apps/EcoSimpy_dev/apps/macro_pk/results/",
-        "analisys": "/home/rivero/Dropbox/Workspace_Current/Projects/Apps/EcoSimpy_dev/apps/macro_pk/analisys/"
+        "app": "/home/rivero/Dropbox/Workspace_Current/Projects/Apps/EcoSimpy_dev/examples/benchmark",
+        "models": "/home/rivero/Dropbox/Workspace_Current/Projects/Apps/EcoSimpy_dev/examples/benchmark/models/",
+        "scenarios": "/home/rivero/Dropbox/Workspace_Current/Projects/Apps/EcoSimpy_dev/examples/benchmark/scenarios/",
+        "runs": "/home/rivero/Dropbox/Workspace_Current/Projects/Apps/EcoSimpy_dev/examples/benchmark/runs/",
+        "results": "/home/rivero/Dropbox/Workspace_Current/Projects/Apps/EcoSimpy_dev/examples/benchmark/results/",
+        "analisys": "/home/rivero/Dropbox/Workspace_Current/Projects/Apps/EcoSimpy_dev/examples/benchmark/analisys/"
     },
     "files": {
-        "model": "/home/rivero/Dropbox/Workspace_Current/Projects/Apps/EcoSimpy_dev/apps/macro_pk/models/model.json",
-        "scenarios": "/home/rivero/Dropbox/Workspace_Current/Projects/Apps/EcoSimpy_dev/apps/macro_pk/scenarios/scenarios.json"
+        "model": "/home/rivero/Dropbox/Workspace_Current/Projects/Apps/EcoSimpy_dev/examples/benchmark/models/model.json",
+        "scenarios": "/home/rivero/Dropbox/Workspace_Current/Projects/Apps/EcoSimpy_dev/examples/benchmark/scenarios/scenarios.json"
     }
 }
