@@ -37,23 +37,13 @@
       "no_of_agents": 1,
       "has_observer": true
     },
-
-    {
-      "agent_type": "HardTitForTatPlayer",
-      "agent_prefix": "HTFT",
-      "agent_spaces": [
-        "IpdGame"
-      ],
-      "no_of_agents": 1,
-      "has_observer": true
-    },
     {
       "agent_type": "ZDExtortionPlayer",
       "agent_prefix": "ZDExt",
       "agent_spaces": [
         "IpdGame"
       ],
-      "no_of_agents": 2,
+      "no_of_agents": 1,
       "has_observer": true
     }
   ]
