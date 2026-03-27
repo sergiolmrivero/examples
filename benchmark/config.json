@@ -1,17 +1,13 @@
 {
     "Description": "Configuration file for EcoSimpy simulation",
-    "Version": "0.0.1",
+    "Version": "0.0.2",
     "License": "GPL-3.0",
     "paths": {
         "app": "/home/rivero/Dropbox/Workspace_Current/Projects/Apps/EcoSim/EcoSimpy_dev/examples/benchmark",
-        "models": "/home/rivero/Dropbox/Workspace_Current/Projects/Apps/EcoSim/EcoSimpy_dev/examples/benchmark/models/",
-        "scenarios": "/home/rivero/Dropbox/Workspace_Current/Projects/Apps/EcoSim/EcoSimpy_dev/examples/benchmark/scenarios/",
         "runs": "/home/rivero/Dropbox/Workspace_Current/Projects/Apps/EcoSim/EcoSimpy_dev/examples/benchmark/runs/",
         "results": "/home/rivero/Dropbox/Workspace_Current/Projects/Apps/EcoSim/EcoSimpy_dev/examples/benchmark/results/",
-        "analisys": "/home/rivero/Dropbox/Workspace_Current/Projects/Apps/EcoSim/EcoSimpy_dev/examples/benchmark/analisys/"
-    },
-    "files": {
-        "model": "/home/rivero/Dropbox/Workspace_Current/Projects/Apps/EcoSim/EcoSimpy_dev/examples/benchmark/models/model.json",
-        "scenarios": "/home/rivero/Dropbox/Workspace_Current/Projects/Apps/EcoSim/EcoSimpy_dev/examples/benchmark/scenarios/scenarios.json"
+        "analisys": "/home/rivero/Dropbox/Workspace_Current/Projects/Apps/EcoSim/EcoSimpy_dev/examples/benchmark/analisys/",
+        "models": "/home/rivero/Dropbox/Workspace_Current/Projects/Apps/EcoSim/EcoSimpy_dev/examples/benchmark/models/",
+        "scenarios": "/home/rivero/Dropbox/Workspace_Current/Projects/Apps/EcoSim/EcoSimpy_dev/examples/benchmark/scenarios/"
     }
 }
