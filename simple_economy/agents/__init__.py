@@ -1,16 +1,21 @@
 # -*- coding: utf-8 -*-
 """
-Python Economic ABM 
-Iterated Prisioners Dilemma Model
-
+Agents Model from the 
+Simple Economic Model
 """
 
 import datetime
+from .agents import Household
 
-import EcoSimpy
 
 
-__title__ = 'ipd_model'
+
+
+__title__ = 'simple_economy'
 __version__ = '0.0.0'
 __license__ = 'GPL-3.0'
 __copyright__ = 'Copyright %s Ecos_p Team' % datetime.date.today().year
+
+
+__all__ = ["Household"]
+

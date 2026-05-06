@@ -36,8 +36,8 @@ class EconomicAgent(DiscreteEventAgent):
 
     """
 
-    def __init__(self, simulation, model, agent_number, agent_def):
-        super().__init__(simulation, model, agent_number, agent_def)
+    def __init__(self, simulation, scenario, agent_number, agent_def):
+        super().__init__(simulation, scenario, agent_number, agent_def)
 
         # note: these variables need to go to some
         # bookeeping object (that will deal with them)
@@ -54,7 +54,7 @@ class EconomicAgent(DiscreteEventAgent):
     def get_contracted_offers(self, contracted_offers):
         """The agent get the contracted_offers"""
         self.contracted_offers = contracted_offers
-        self.demmand_satisfied = True
+        self.demand_satisfied = True
 
     def got_contract(self, market, an_offer, buyer):
         """the agent got a contract for an offer"""
@@ -73,7 +73,7 @@ class EconomicAgent(DiscreteEventAgent):
         pass
 
     def release_demand(self):
-        """Agent releases a demmand"""
+        """Agent releases a demand"""
         # TODO: Implemented by subclass
         self.demand_satisfied = False
 

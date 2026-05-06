@@ -1,0 +1,35 @@
+{
+  "simulation_name": "simple_economy",
+  "simulation_parameters": [
+  ],
+  "model_name": "simple_economy",
+  "schedule": [
+    {
+      "schedule_type": "MixedSchedule",
+      "schedule_name": "MyMxSchd"
+    }
+  ],
+  "spaces": [
+    {
+      "space_type": "CGMarket",
+      "space_name": "CG_Market",
+      "space_variables": {
+        "market_type": "random"
+      }
+    }
+  ],
+  "agents_classes":[
+    "Household"
+  ],  
+  "agents": [
+    {
+      "agent_type": "Household",
+      "agent_prefix": "HH",
+      "agent_spaces": [
+        "CG_Market"
+      ],
+      "no_of_agents": 5,
+      "has_observer": true
+    }
+  ]
+}

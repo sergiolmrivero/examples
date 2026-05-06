@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 """
 Python Economic ABM 
-Iterated Prisioners Dilemma Model
-
+Basic Macroeconomic Model
+Based on Caiani et al (2016)
 """
 
 import datetime
@@ -10,7 +10,7 @@ import datetime
 import EcoSimpy
 
 
-__title__ = 'ipd_model'
+__title__ = 'benchmark_model'
 __version__ = '0.0.0'
 __license__ = 'GPL-3.0'
 __copyright__ = 'Copyright %s Ecos_p Team' % datetime.date.today().year

@@ -27,51 +27,49 @@ class Equations():
         self.ag = agent
 
 
-        self.get_constants()
-
-
-    def get_constants(self):
+    def get_constants(self, active_scenario):
         """Get the constants of the model
         """
+        self.active_scenario = active_scenario
 
         # lambda - prevision error ajustment
-        self.expect_lambda = self.active_scenario.expect_lambda
+        self.expect_lambda = self.active_scenario.get_scenario_variable("expect_lambda")
 
         # nu - share of expected sales held in inventories
-        self.nu = self.active_scenario.nu
+        self.nu = self.active_scenario.get_scenario_variable("nu") 
 
         # l_k - capital/labor ratio
-        self.l_k = self.active_scenario.l_k
+        self.l_k = self.active_scenario.get_scenario_variable("l_k")
 
         # capital productivity
-        self.mu_k = self.active_scenario.mu_k
+        self.mu_k = self.active_scenario.get_scenario_variable("mu_k")
 
         # labor productivity
-        self.mu_n = self.active_scenario.mu_n
+        self.mu_n = self.active_scenario.get_scenario_variable("mu_n")
 
         # employees turnover
-        self.upsilon = self.active_scenario.upsilon
+        self.upsilon = self.active_scenario.get_scenario_variable("upsilon")
 
         # unemployment threshold
-        self.u_w = self.active_scenario.u_w
+        self.u_w = self.active_scenario.get_scenario_variable("u_w")    
 
         # coefficitent of the profit rate 
-        self.gamma_1 = self.active_scenario.gamma_1
+        self.gamma_1 = self.active_scenario.get_scenario_variable("gamma_1")
 
         # coefficitent of the profit rate 
-        self.gamma_2 = self.active_scenario.gamma_2
+        self.gamma_2 = self.active_scenario.get_scenario_variable("gamma_2")
 
         # normal profit rate
-        self.r_bar = self.active_scenario.r_bar
+        self.r_bar = self.active_scenario.get_scenario_variable("r_bar")
 
         # normal capacity utilization
-        self.u_bar = self.active_scenario.u_bar
+        self.u_bar = self.active_scenario.get_scenario_variable("u_bar")
 
         # duration of the loans
-        self.eta = self.active_scenario.eta
+        self.eta = self.active_scenario.get_scenario_variable("eta")
 
         # duration of the capital
-        self.kappa = self.active_scenario.kappa
+        self.kappa = self.active_scenario.get_scenario_variable("kappa")
 
 
     def set_bookkeeper(self, bookkeeper):

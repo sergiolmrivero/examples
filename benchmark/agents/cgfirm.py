@@ -35,8 +35,8 @@ import random as rnd
 
 class CGFirm(Firm):
     """ Consumers Goods Firm """
-    def __init__(self, simulation, model, agent_number, agent_def):
-        super().__init__(simulation, model, agent_number, agent_def)
+    def __init__(self, simulation, scenario, agent_number, agent_def):
+        super().__init__(simulation, scenario, agent_number, agent_def)
 
         self.bookkeeper = CGFirmBookkeeper(self)
         self.eq = CGFirmEquations(self.active_scenario, self)
@@ -53,6 +53,7 @@ class CGFirm(Firm):
         """
    
         if self.first:
+            self.eq.get_constants(self.active_scenario)
             self.create_initial_values()
             self.first = False
 

@@ -33,9 +33,11 @@ class Household(EconomicAgent):
         * Organize equations cals
     """
 
-    def __init__(self, simulation, model, agent_number, agent_def):
-        super().__init__(simulation, model, agent_number, agent_def)
-       
+    def __init__(self, simulation, scenario, agent_number, agent_def):
+        super().__init__(simulation, scenario, agent_number, agent_def)
+    
+
+        self.active_scenario = scenario
         self.bookkeeper = HHBookkeeper(self)
         self.eq = HHEquations(self.active_scenario, self)
 
@@ -52,6 +54,7 @@ class Household(EconomicAgent):
         """Household Agent Step method
         """
         if self.first_step:
+            self.eq.get_constants(self.active_scenario)
             self.create_initial_values()
             self.first_step = False
         self.create_expectations()

@@ -1,0 +1,13 @@
+{
+    "Description": "Configuration file for EcoSimpy simulation",
+    "Version": "0.0.2",
+    "License": "GPL-3.0",
+    "paths": {
+        "app": "/home/rivero/Dropbox/Workspace_Current/Projects/Apps/EcoSim/EcoSimpy_dev/examples/simple_economy",
+        "runs": "/home/rivero/Dropbox/Workspace_Current/Projects/Apps/EcoSim/EcoSimpy_dev/examples/simple_economy/runs/",
+        "results": "/home/rivero/Dropbox/Workspace_Current/Projects/Apps/EcoSim/EcoSimpy_dev/examples/simple_economy/results/",
+        "analisys": "/home/rivero/Dropbox/Workspace_Current/Projects/Apps/EcoSim/EcoSimpy_dev/examples/simple_economy/analisys/",
+        "models": "/home/rivero/Dropbox/Workspace_Current/Projects/Apps/EcoSim/EcoSimpy_dev/examples/simple_economy/models/",
+        "scenarios": "/home/rivero/Dropbox/Workspace_Current/Projects/Apps/EcoSim/EcoSimpy_dev/examples/simple_economy/scenarios/"
+    }
+}

@@ -28,8 +28,8 @@ from .agents import EconomicAgent
 
 class Firm(EconomicAgent):
     """ Generic Firm """
-    def __init__(self, simulation, model, agent_number, agent_def):
-        super().__init__(simulation, model, agent_number, agent_def)
+    def __init__(self, simulation, scenario, agent_number, agent_def):
+        super().__init__(simulation, scenario, agent_number, agent_def)
 
        
 
